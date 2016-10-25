@@ -1,0 +1,48 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath "io.realm:realm-gradle-plugin:1.2.0"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext{
+    minSdkVersion = 16
+    targetSdkVersion = 24
+    compileSdkVersion = 24
+    buildToolsVersion = '24.0.0'
+
+    supportLibraryVersion = '24.2.0'
+
+    gmsPlayServiceVersion = '9.0.2'
+
+    retrofitVersion = '2.1.0'
+
+
+    circleImageViewVersion = '2.0.0'
+    firebaseClientVersion = '2.5.0'
+    butterknifeVersion = '8.4.0'
+    eventbusVersion = '3.0.0'
+    glideVersion = '3.6.1'
+    frescoVersion = '0.13.0'
+    facebookVersion = '4.15.0'
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mi Carrito</string>
+    <string name="login_hintpass">Contraseña</string>
+    <string name="login_hintuser">Correo</string>
+    <string name="login_textregister">Registrarse</string>
+    <string name="login_textiniciosesion">Iniciar Sesion</string>
+    <string name="login_hintEmail">Correo</string>
+    <string name="login_hintPass">Contraseña</string>
+    <string name="user_hintNombreCompleto">Nombre Completo</string>
+    <string name="user_hintRepetirPass">Repetir Contraseña</string>
+    <string name="productdetail_textComprar">Comprar Ya</string>
+    <string name="productdetail_textAgregar">Agregar</string>
+    <string name="productdetail_textDeseado">Deseado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1054515461330445</string>
+
+</resources>
